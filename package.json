@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose --coverage",
-    "start": "nodemon index.js"
+    "test": "jest --coverage",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
