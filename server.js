@@ -18,7 +18,7 @@ app.get('/data', stamper, (req, res) => {
     "time": req.timestamp
   }
 
-  req.status(200).json(outputObject);
+  res.status(200).json(outputObject);
 });
 
 app.get('/bad', (req, res, next) => {
